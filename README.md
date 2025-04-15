@@ -1,17 +1,16 @@
-# minimal-reproduction-template
+# 35396
 
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
+Reproduction for [Renovate issue 35396](https://github.com/renovatebot/renovate/issues/35396).
 
-Then replace the current `h1` with the Renovate Issue/Discussion number.
 
 ## Current behavior
 
-Explain the current behavior here.
+An update to 8.3.5 is detected for the optional dependency pytest, but no update branch is created.
 
 ## Expected behavior
 
-Explain the expected behavior here.
+A branch should be created for the updated version
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+https://github.com/renovatebot/renovate/issues/35396
