@@ -1,1 +1,5 @@
-{}
+{
+  "packageRules": [
+    {"matchDepNames": ["*"], "rangeStrategy": "update-lockfile"}
+  ]
+}
